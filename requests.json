@@ -1,0 +1,16 @@
+{
+  "CRIAR_RESERVA": {
+    "method": "POST",
+    "url": "/api/vagas/reservar",
+    "body": {
+      "idMorador": 1,
+      "placaVeiculo": "ABC-1234",
+      "dataReserva": "2026-04-12T14:00:00",
+      "tipoVaga": "Visitante"
+    }
+  },
+  "CONSULTAR_VAGAS": {
+    "method": "GET",
+    "url": "/api/vagas/disponiveis"
+  }
+}

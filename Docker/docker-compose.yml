@@ -1,0 +1,23 @@
+version: '3.4'
+
+services:
+  easyaccess.api:
+    image: easyaccess-api
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "5000:80"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ConnectionStrings__DefaultConnection=Server=db;Database=EasyAccess;User Id=sa;Password=YourStrong@Password;
+    depends_on:
+      - db
+
+  db:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    environment:
+      - ACCEPT_EULA=Y
+      - MSSQL_SA_PASSWORD=YourStrong@Password
+    ports:
+      - "1433:1433"

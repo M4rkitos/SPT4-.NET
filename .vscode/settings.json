@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/ee053cef-ec71-4b0b-a4de-53c9ebc1650d/resourceGroups/EasyAccess_RG/providers/Microsoft.Web/sites/easyaccess-api-final",
+    "appService.deploySubpath": "."
+}

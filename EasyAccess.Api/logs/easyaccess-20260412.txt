@@ -1,0 +1,44 @@
+2026-04-12 20:29:57.667 -03:00 [INF] Now listening on: http://localhost:5128
+2026-04-12 20:29:57.711 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-04-12 20:29:57.712 -03:00 [INF] Hosting environment: Development
+2026-04-12 20:29:57.712 -03:00 [INF] Content root path: C:\Users\marvi\OneDrive\Área de Trabalho\Advanced-Business-Development-with-.NET_CHALLENGE-main\EasyAccess.Api
+2026-04-12 20:29:57.967 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5128/swagger - null null
+2026-04-12 20:29:58.024 -03:00 [WRN] Failed to determine the https port for redirect.
+2026-04-12 20:29:58.041 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5128/swagger - 404 0 null 105.2358ms
+2026-04-12 20:29:58.054 -03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5128/swagger, Response status code: 404
+2026-04-12 20:29:59.593 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5128/swagger - null null
+2026-04-12 20:29:59.595 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5128/swagger - 404 0 null 3.5321ms
+2026-04-12 20:29:59.602 -03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5128/swagger, Response status code: 404
+2026-04-12 20:30:03.004 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5128/swagger - null null
+2026-04-12 20:30:03.006 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5128/swagger - 404 0 null 1.9482ms
+2026-04-12 20:30:03.006 -03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5128/swagger, Response status code: 404
+2026-04-12 20:30:52.209 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5128/ - null null
+2026-04-12 20:30:52.213 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5128/ - 301 0 null 5.9699ms
+2026-04-12 20:30:52.220 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5128/index.html - null null
+2026-04-12 20:30:52.315 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5128/index.html - 200 null text/html;charset=utf-8 95.6016ms
+2026-04-12 20:30:52.347 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5128/swagger-ui.css - null null
+2026-04-12 20:30:52.354 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5128/swagger-ui-bundle.js - null null
+2026-04-12 20:30:52.362 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5128/swagger-ui-standalone-preset.js - null null
+2026-04-12 20:30:52.454 -03:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2026-04-12 20:30:52.454 -03:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2026-04-12 20:30:52.458 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5128/swagger-ui.css - 200 152034 text/css 110.3123ms
+2026-04-12 20:30:52.458 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5128/swagger-ui-standalone-preset.js - 200 230280 text/javascript 96.8008ms
+2026-04-12 20:30:52.467 -03:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2026-04-12 20:30:52.467 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5128/swagger-ui-bundle.js - 200 1456926 text/javascript 114.8301ms
+2026-04-12 20:30:52.726 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5128/swagger/v1/swagger.json - null null
+2026-04-12 20:30:52.742 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5128/favicon-32x32.png - null null
+2026-04-12 20:30:52.743 -03:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2026-04-12 20:30:52.743 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5128/favicon-32x32.png - 200 628 image/png 1.0432ms
+2026-04-12 20:30:52.833 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5128/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 107.624ms
+2026-04-12 20:32:15.128 -03:00 [INF] Now listening on: http://localhost:5128
+2026-04-12 20:32:15.168 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-04-12 20:32:15.168 -03:00 [INF] Hosting environment: Development
+2026-04-12 20:32:15.168 -03:00 [INF] Content root path: C:\Users\marvi\OneDrive\Área de Trabalho\Advanced-Business-Development-with-.NET_CHALLENGE-main\EasyAccess.Api
+2026-04-12 20:32:15.343 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5128/swagger - null null
+2026-04-12 20:32:15.381 -03:00 [WRN] Failed to determine the https port for redirect.
+2026-04-12 20:32:15.393 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5128/swagger - 404 0 null 73.4509ms
+2026-04-12 20:32:15.403 -03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5128/swagger, Response status code: 404
+2026-04-12 20:32:27.044 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5128/index.html - null null
+2026-04-12 20:32:27.136 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5128/index.html - 200 null text/html;charset=utf-8 92.6787ms
+2026-04-12 20:32:27.430 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5128/swagger/v1/swagger.json - null null
+2026-04-12 20:32:27.525 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5128/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 95.1226ms
