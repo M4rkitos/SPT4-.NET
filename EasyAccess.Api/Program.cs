@@ -44,7 +44,7 @@ builder.Services.AddOpenTelemetry()
         .AddAspNetCoreInstrumentation()
         .AddConsoleExporter())
     .WithMetrics(metrics => metrics
-        .AddAspNetCoreInstrumentation()
+        .AddAspNetCoreInstrumentation() 
         .AddConsoleExporter());
 
 var app = builder.Build();

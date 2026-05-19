@@ -115,3 +115,4 @@ c:\Users\marvi\OneDrive\Área de Trabalho\Advanced-Business-Development-with-.NE
 c:\Users\marvi\OneDrive\Área de Trabalho\Advanced-Business-Development-with-.NET_CHALLENGE-main\EasyAccess.Api\obj\Debug\net8.0\EasyAccess.Api.pdb
 c:\Users\marvi\OneDrive\Área de Trabalho\Advanced-Business-Development-with-.NET_CHALLENGE-main\EasyAccess.Api\obj\Debug\net8.0\EasyAccess.Api.genruntimeconfig.cache
 c:\Users\marvi\OneDrive\Área de Trabalho\Advanced-Business-Development-with-.NET_CHALLENGE-main\EasyAccess.Api\obj\Debug\net8.0\ref\EasyAccess.Api.dll
+c:\Users\marvi\OneDrive\Área de Trabalho\Advanced-Business-Development-with-.NET_CHALLENGE-main\EasyAccess.Api\obj\Debug\net8.0\EasyAccess.Api.sourcelink.json
