@@ -1,0 +1,158 @@
+2026-05-20 00:37:59.637 -03:00 [INF] Now listening on: http://localhost:5128
+2026-05-20 00:37:59.686 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-20 00:37:59.687 -03:00 [INF] Hosting environment: Development
+2026-05-20 00:37:59.687 -03:00 [INF] Content root path: C:\Users\marvi\OneDrive\Área de Trabalho\Advanced-Business-Development-with-.NET_CHALLENGE-main\EasyAccess.Api
+2026-05-20 00:37:59.938 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5128/swagger - null null
+2026-05-20 00:37:59.995 -03:00 [WRN] Failed to determine the https port for redirect.
+2026-05-20 00:38:00.011 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5128/swagger - 404 0 null 106.3102ms
+2026-05-20 00:38:00.025 -03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5128/swagger, Response status code: 404
+2026-05-20 00:38:03.229 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5128/ - null null
+2026-05-20 00:38:03.234 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5128/ - 301 0 null 5.1484ms
+2026-05-20 00:38:03.239 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5128/index.html - null null
+2026-05-20 00:38:03.337 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5128/index.html - 200 null text/html;charset=utf-8 98.4118ms
+2026-05-20 00:38:03.351 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5128/swagger-ui-bundle.js - null null
+2026-05-20 00:38:03.351 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5128/swagger-ui.css - null null
+2026-05-20 00:38:03.355 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5128/swagger-ui-standalone-preset.js - null null
+2026-05-20 00:38:03.437 -03:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2026-05-20 00:38:03.437 -03:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2026-05-20 00:38:03.437 -03:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2026-05-20 00:38:03.440 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5128/swagger-ui-standalone-preset.js - 200 230280 text/javascript 85.365ms
+2026-05-20 00:38:03.440 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5128/swagger-ui-bundle.js - 200 1456926 text/javascript 88.3472ms
+2026-05-20 00:38:03.440 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5128/swagger-ui.css - 200 152034 text/css 88.4468ms
+2026-05-20 00:38:03.736 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5128/swagger/v1/swagger.json - null null
+2026-05-20 00:38:03.869 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5128/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 133.4202ms
+2026-05-20 00:38:44.090 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5128/health - null null
+2026-05-20 00:38:44.094 -03:00 [INF] Executing endpoint 'Health checks'
+2026-05-20 00:38:44.102 -03:00 [INF] Executed endpoint 'Health checks'
+2026-05-20 00:38:44.102 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5128/health - 200 null text/plain 17.0068ms
+2026-05-20 00:38:44.283 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5128/favicon.ico - null null
+2026-05-20 00:38:44.284 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5128/favicon.ico - 404 0 null 1.1743ms
+2026-05-20 00:38:44.285 -03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5128/favicon.ico, Response status code: 404
+2026-05-20 00:48:04.514 -03:00 [INF] Now listening on: http://localhost:5128
+2026-05-20 00:48:04.560 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-20 00:48:04.561 -03:00 [INF] Hosting environment: Development
+2026-05-20 00:48:04.561 -03:00 [INF] Content root path: C:\Users\marvi\OneDrive\Área de Trabalho\Advanced-Business-Development-with-.NET_CHALLENGE-main\EasyAccess.Api
+2026-05-20 00:48:04.736 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5128/swagger - null null
+2026-05-20 00:48:04.779 -03:00 [WRN] Failed to determine the https port for redirect.
+2026-05-20 00:48:04.790 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5128/swagger - 404 0 null 80.9498ms
+2026-05-20 00:48:04.800 -03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5128/swagger, Response status code: 404
+2026-05-20 00:48:08.767 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5128/index.html - null null
+2026-05-20 00:48:08.863 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5128/index.html - 200 null text/html;charset=utf-8 95.9301ms
+2026-05-20 00:48:09.149 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5128/swagger/v1/swagger.json - null null
+2026-05-20 00:48:09.276 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5128/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 127.5163ms
+2026-05-20 00:48:32.160 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5128/health - null null
+2026-05-20 00:48:32.168 -03:00 [INF] Executing endpoint 'Health checks'
+2026-05-20 00:48:32.174 -03:00 [INF] Executed endpoint 'Health checks'
+2026-05-20 00:48:32.175 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5128/health - 200 null text/plain 15.0292ms
+2026-05-20 01:05:40.731 -03:00 [INF] Now listening on: http://localhost:5128
+2026-05-20 01:05:40.773 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-20 01:05:40.774 -03:00 [INF] Hosting environment: Development
+2026-05-20 01:05:40.774 -03:00 [INF] Content root path: C:\Users\marvi\OneDrive\Área de Trabalho\Advanced-Business-Development-with-.NET_CHALLENGE-main\EasyAccess.Api
+2026-05-20 01:05:41.011 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5128/swagger - null null
+2026-05-20 01:05:41.064 -03:00 [WRN] Failed to determine the https port for redirect.
+2026-05-20 01:05:41.083 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5128/swagger - 404 0 null 104.8515ms
+2026-05-20 01:05:41.095 -03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5128/swagger, Response status code: 404
+2026-05-20 01:05:46.211 -03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5128/api/Vagas - application/json 131
+2026-05-20 01:05:46.215 -03:00 [INF] Executing endpoint 'EasyAccess.Api.Controllers.VagasController.Post (EasyAccess.Api)'
+2026-05-20 01:05:46.250 -03:00 [INF] Route matched with {action = "Post", controller = "Vagas"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Post(EasyAccess.Application.DTOs.ReservaVagaDto) on controller EasyAccess.Api.Controllers.VagasController (EasyAccess.Api).
+2026-05-20 01:05:46.485 -03:00 [INF] Executing action method EasyAccess.Api.Controllers.VagasController.Post (EasyAccess.Api) - Validation state: "Valid"
+2026-05-20 01:05:46.882 -03:00 [INF] Saved 1 entities to in-memory store.
+2026-05-20 01:05:46.890 -03:00 [INF] Executed action method EasyAccess.Api.Controllers.VagasController.Post (EasyAccess.Api), returned result Microsoft.AspNetCore.Mvc.CreatedResult in 401.1384ms.
+2026-05-20 01:05:46.897 -03:00 [INF] Executing CreatedResult, writing value of type '<>f__AnonymousType1`3[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[VagaReservaResponseDto, EasyAccess.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-05-20 01:05:46.930 -03:00 [INF] Executed action EasyAccess.Api.Controllers.VagasController.Post (EasyAccess.Api) in 676.7253ms
+2026-05-20 01:05:46.930 -03:00 [INF] Executed endpoint 'EasyAccess.Api.Controllers.VagasController.Post (EasyAccess.Api)'
+2026-05-20 01:05:46.933 -03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5128/api/Vagas - 201 null application/json; charset=utf-8 723.0602ms
+2026-05-20 01:05:55.080 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5128/index.html - null null
+2026-05-20 01:05:55.139 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5128/index.html - 200 null text/html;charset=utf-8 59.1374ms
+2026-05-20 01:05:55.337 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5128/swagger/v1/swagger.json - null null
+2026-05-20 01:05:55.435 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5128/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 97.5422ms
+2026-05-20 01:06:59.393 -03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5128/api/Vagas - application/json 131
+2026-05-20 01:06:59.424 -03:00 [INF] Executing endpoint 'EasyAccess.Api.Controllers.VagasController.Post (EasyAccess.Api)'
+2026-05-20 01:06:59.425 -03:00 [INF] Route matched with {action = "Post", controller = "Vagas"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Post(EasyAccess.Application.DTOs.ReservaVagaDto) on controller EasyAccess.Api.Controllers.VagasController (EasyAccess.Api).
+2026-05-20 01:06:59.434 -03:00 [INF] Executing action method EasyAccess.Api.Controllers.VagasController.Post (EasyAccess.Api) - Validation state: "Valid"
+2026-05-20 01:06:59.462 -03:00 [INF] Saved 1 entities to in-memory store.
+2026-05-20 01:06:59.462 -03:00 [INF] Executed action method EasyAccess.Api.Controllers.VagasController.Post (EasyAccess.Api), returned result Microsoft.AspNetCore.Mvc.CreatedResult in 28.0735ms.
+2026-05-20 01:06:59.463 -03:00 [INF] Executing CreatedResult, writing value of type '<>f__AnonymousType1`3[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[VagaReservaResponseDto, EasyAccess.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-05-20 01:06:59.463 -03:00 [INF] Executed action EasyAccess.Api.Controllers.VagasController.Post (EasyAccess.Api) in 38.1803ms
+2026-05-20 01:06:59.463 -03:00 [INF] Executed endpoint 'EasyAccess.Api.Controllers.VagasController.Post (EasyAccess.Api)'
+2026-05-20 01:06:59.464 -03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5128/api/Vagas - 201 null application/json; charset=utf-8 71.1648ms
+2026-05-20 01:08:20.638 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5128/api/Vagas?page=%201&pageSize=%202&ordenacao=%20Id - null null
+2026-05-20 01:08:20.638 -03:00 [INF] Executing endpoint 'EasyAccess.Api.Controllers.VagasController.GetAll (EasyAccess.Api)'
+2026-05-20 01:08:20.644 -03:00 [INF] Route matched with {action = "GetAll", controller = "Vagas"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll(Int32, Int32, System.String, System.String) on controller EasyAccess.Api.Controllers.VagasController (EasyAccess.Api).
+2026-05-20 01:08:20.653 -03:00 [INF] Executing action method EasyAccess.Api.Controllers.VagasController.GetAll (EasyAccess.Api) - Validation state: "Valid"
+2026-05-20 01:08:20.899 -03:00 [INF] Executed action method EasyAccess.Api.Controllers.VagasController.GetAll (EasyAccess.Api), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 245.8817ms.
+2026-05-20 01:08:20.900 -03:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType4`6[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.IEnumerable`1[[VagaReservaResponseDto, EasyAccess.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[System.Object, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-05-20 01:08:20.918 -03:00 [INF] Executed action EasyAccess.Api.Controllers.VagasController.GetAll (EasyAccess.Api) in 273.8952ms
+2026-05-20 01:08:20.918 -03:00 [INF] Executed endpoint 'EasyAccess.Api.Controllers.VagasController.GetAll (EasyAccess.Api)'
+2026-05-20 01:08:20.918 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5128/api/Vagas?page=%201&pageSize=%202&ordenacao=%20Id - 200 null application/json; charset=utf-8 289.3854ms
+2026-05-20 01:14:35.794 -03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5128/api/Vagas - application/json 131
+2026-05-20 01:14:35.799 -03:00 [INF] Executing endpoint 'EasyAccess.Api.Controllers.VagasController.Post (EasyAccess.Api)'
+2026-05-20 01:14:35.799 -03:00 [INF] Route matched with {action = "Post", controller = "Vagas"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Post(EasyAccess.Application.DTOs.ReservaVagaDto) on controller EasyAccess.Api.Controllers.VagasController (EasyAccess.Api).
+2026-05-20 01:14:35.800 -03:00 [INF] Executing action method EasyAccess.Api.Controllers.VagasController.Post (EasyAccess.Api) - Validation state: "Valid"
+2026-05-20 01:14:35.801 -03:00 [INF] Saved 1 entities to in-memory store.
+2026-05-20 01:14:35.801 -03:00 [INF] Executed action method EasyAccess.Api.Controllers.VagasController.Post (EasyAccess.Api), returned result Microsoft.AspNetCore.Mvc.CreatedResult in 0.8053ms.
+2026-05-20 01:14:35.801 -03:00 [INF] Executing CreatedResult, writing value of type '<>f__AnonymousType1`3[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[VagaReservaResponseDto, EasyAccess.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-05-20 01:14:35.801 -03:00 [INF] Executed action EasyAccess.Api.Controllers.VagasController.Post (EasyAccess.Api) in 1.8393ms
+2026-05-20 01:14:35.801 -03:00 [INF] Executed endpoint 'EasyAccess.Api.Controllers.VagasController.Post (EasyAccess.Api)'
+2026-05-20 01:14:35.802 -03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5128/api/Vagas - 201 null application/json; charset=utf-8 8.1467ms
+2026-05-20 01:14:35.887 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5128/api/Vagas - null null
+2026-05-20 01:14:35.887 -03:00 [INF] Executing endpoint 'EasyAccess.Api.Controllers.VagasController.GetAll (EasyAccess.Api)'
+2026-05-20 01:14:35.887 -03:00 [INF] Route matched with {action = "GetAll", controller = "Vagas"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll(Int32, Int32, System.String, System.String) on controller EasyAccess.Api.Controllers.VagasController (EasyAccess.Api).
+2026-05-20 01:14:35.887 -03:00 [INF] Executing action method EasyAccess.Api.Controllers.VagasController.GetAll (EasyAccess.Api) - Validation state: "Valid"
+2026-05-20 01:14:35.892 -03:00 [INF] Executed action method EasyAccess.Api.Controllers.VagasController.GetAll (EasyAccess.Api), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 4.0064ms.
+2026-05-20 01:14:35.892 -03:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType4`6[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.IEnumerable`1[[VagaReservaResponseDto, EasyAccess.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[System.Object, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-05-20 01:14:35.892 -03:00 [INF] Executed action EasyAccess.Api.Controllers.VagasController.GetAll (EasyAccess.Api) in 5.0259ms
+2026-05-20 01:14:35.892 -03:00 [INF] Executed endpoint 'EasyAccess.Api.Controllers.VagasController.GetAll (EasyAccess.Api)'
+2026-05-20 01:14:35.892 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5128/api/Vagas - 200 null application/json; charset=utf-8 5.9109ms
+2026-05-20 01:16:04.929 -03:00 [INF] Now listening on: http://localhost:5128
+2026-05-20 01:16:04.988 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-20 01:16:04.989 -03:00 [INF] Hosting environment: Development
+2026-05-20 01:16:04.989 -03:00 [INF] Content root path: C:\Users\marvi\OneDrive\Área de Trabalho\Advanced-Business-Development-with-.NET_CHALLENGE-main\EasyAccess.Api
+2026-05-20 01:16:05.209 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5128/swagger - null null
+2026-05-20 01:16:05.258 -03:00 [WRN] Failed to determine the https port for redirect.
+2026-05-20 01:16:05.271 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5128/swagger - 404 0 null 92.6592ms
+2026-05-20 01:16:05.285 -03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5128/swagger, Response status code: 404
+2026-05-20 01:16:08.883 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5128/index.html - null null
+2026-05-20 01:16:08.978 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5128/index.html - 200 null text/html;charset=utf-8 96.4624ms
+2026-05-20 01:16:09.187 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5128/swagger/v1/swagger.json - null null
+2026-05-20 01:16:09.316 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5128/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 130.0066ms
+2026-05-20 01:16:29.720 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5128/index.html - null null
+2026-05-20 01:16:29.726 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5128/index.html - 200 null text/html;charset=utf-8 6.1844ms
+2026-05-20 01:16:29.931 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5128/swagger/v1/swagger.json - null null
+2026-05-20 01:16:29.935 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5128/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 3.6316ms
+2026-05-20 01:16:32.687 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5128/health - null null
+2026-05-20 01:16:32.689 -03:00 [INF] Executing endpoint 'Health checks'
+2026-05-20 01:16:32.696 -03:00 [INF] Executed endpoint 'Health checks'
+2026-05-20 01:16:32.697 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5128/health - 200 null text/plain 9.8622ms
+2026-05-20 01:16:32.897 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5128/favicon.ico - null null
+2026-05-20 01:16:32.900 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5128/favicon.ico - 404 0 null 3.6239ms
+2026-05-20 01:16:32.901 -03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5128/favicon.ico, Response status code: 404
+2026-05-20 01:17:22.373 -03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5128/api/Vagas - application/json 131
+2026-05-20 01:17:22.375 -03:00 [INF] Executing endpoint 'EasyAccess.Api.Controllers.VagasController.Post (EasyAccess.Api)'
+2026-05-20 01:17:22.410 -03:00 [INF] Route matched with {action = "Post", controller = "Vagas"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Post(EasyAccess.Application.DTOs.ReservaVagaDto) on controller EasyAccess.Api.Controllers.VagasController (EasyAccess.Api).
+2026-05-20 01:17:22.594 -03:00 [INF] Executing action method EasyAccess.Api.Controllers.VagasController.Post (EasyAccess.Api) - Validation state: "Valid"
+2026-05-20 01:17:22.995 -03:00 [INF] Saved 1 entities to in-memory store.
+2026-05-20 01:17:23.003 -03:00 [INF] Executed action method EasyAccess.Api.Controllers.VagasController.Post (EasyAccess.Api), returned result Microsoft.AspNetCore.Mvc.CreatedResult in 405.6054ms.
+2026-05-20 01:17:23.010 -03:00 [INF] Executing CreatedResult, writing value of type '<>f__AnonymousType1`3[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[VagaReservaResponseDto, EasyAccess.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-05-20 01:17:23.032 -03:00 [INF] Executed action EasyAccess.Api.Controllers.VagasController.Post (EasyAccess.Api) in 618.1366ms
+2026-05-20 01:17:23.032 -03:00 [INF] Executed endpoint 'EasyAccess.Api.Controllers.VagasController.Post (EasyAccess.Api)'
+2026-05-20 01:17:23.035 -03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5128/api/Vagas - 201 null application/json; charset=utf-8 663.4566ms
+2026-05-20 01:17:35.172 -03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5128/api/Vagas - application/json 132
+2026-05-20 01:17:35.173 -03:00 [INF] Executing endpoint 'EasyAccess.Api.Controllers.VagasController.Post (EasyAccess.Api)'
+2026-05-20 01:17:35.173 -03:00 [INF] Route matched with {action = "Post", controller = "Vagas"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Post(EasyAccess.Application.DTOs.ReservaVagaDto) on controller EasyAccess.Api.Controllers.VagasController (EasyAccess.Api).
+2026-05-20 01:17:35.175 -03:00 [INF] Executing action method EasyAccess.Api.Controllers.VagasController.Post (EasyAccess.Api) - Validation state: "Valid"
+2026-05-20 01:17:35.202 -03:00 [INF] Saved 1 entities to in-memory store.
+2026-05-20 01:17:35.202 -03:00 [INF] Executed action method EasyAccess.Api.Controllers.VagasController.Post (EasyAccess.Api), returned result Microsoft.AspNetCore.Mvc.CreatedResult in 27.2122ms.
+2026-05-20 01:17:35.203 -03:00 [INF] Executing CreatedResult, writing value of type '<>f__AnonymousType1`3[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[VagaReservaResponseDto, EasyAccess.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-05-20 01:17:35.203 -03:00 [INF] Executed action EasyAccess.Api.Controllers.VagasController.Post (EasyAccess.Api) in 30.1832ms
+2026-05-20 01:17:35.203 -03:00 [INF] Executed endpoint 'EasyAccess.Api.Controllers.VagasController.Post (EasyAccess.Api)'
+2026-05-20 01:17:35.204 -03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5128/api/Vagas - 201 null application/json; charset=utf-8 31.9033ms
+2026-05-20 01:18:03.826 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5128/api/Vagas?page=%201&pageSize=%202&ordenacao=%20Id - null null
+2026-05-20 01:18:03.827 -03:00 [INF] Executing endpoint 'EasyAccess.Api.Controllers.VagasController.GetAll (EasyAccess.Api)'
+2026-05-20 01:18:03.832 -03:00 [INF] Route matched with {action = "GetAll", controller = "Vagas"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll(Int32, Int32, System.String, System.String) on controller EasyAccess.Api.Controllers.VagasController (EasyAccess.Api).
+2026-05-20 01:18:03.842 -03:00 [INF] Executing action method EasyAccess.Api.Controllers.VagasController.GetAll (EasyAccess.Api) - Validation state: "Valid"
+2026-05-20 01:18:04.084 -03:00 [INF] Executed action method EasyAccess.Api.Controllers.VagasController.GetAll (EasyAccess.Api), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 242.278ms.
+2026-05-20 01:18:04.085 -03:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType4`6[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.IEnumerable`1[[VagaReservaResponseDto, EasyAccess.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[System.Object, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-05-20 01:18:04.096 -03:00 [INF] Executed action EasyAccess.Api.Controllers.VagasController.GetAll (EasyAccess.Api) in 263.8559ms
+2026-05-20 01:18:04.097 -03:00 [INF] Executed endpoint 'EasyAccess.Api.Controllers.VagasController.GetAll (EasyAccess.Api)'
+2026-05-20 01:18:04.097 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5128/api/Vagas?page=%201&pageSize=%202&ordenacao=%20Id - 200 null application/json; charset=utf-8 275.1301ms

@@ -10,9 +10,9 @@ C:\Users\marvi\OneDrive\Área de Trabalho\Advanced-Business-Development-with-.NE
 C:\Users\marvi\OneDrive\Área de Trabalho\Advanced-Business-Development-with-.NET_CHALLENGE-main\EasyAccess.Application\obj\Debug\net8.0\EasyAccess.Application.AssemblyInfoInputs.cache
 C:\Users\marvi\OneDrive\Área de Trabalho\Advanced-Business-Development-with-.NET_CHALLENGE-main\EasyAccess.Application\obj\Debug\net8.0\EasyAccess.Application.AssemblyInfo.cs
 C:\Users\marvi\OneDrive\Área de Trabalho\Advanced-Business-Development-with-.NET_CHALLENGE-main\EasyAccess.Application\obj\Debug\net8.0\EasyAccess.Application.csproj.CoreCompileInputs.cache
+C:\Users\marvi\OneDrive\Área de Trabalho\Advanced-Business-Development-with-.NET_CHALLENGE-main\EasyAccess.Application\obj\Debug\net8.0\EasyAccess.Application.sourcelink.json
 C:\Users\marvi\OneDrive\Área de Trabalho\Advanced-Business-Development-with-.NET_CHALLENGE-main\EasyAccess.Application\obj\Debug\net8.0\EasyAcce.D2EE06FC.Up2Date
 C:\Users\marvi\OneDrive\Área de Trabalho\Advanced-Business-Development-with-.NET_CHALLENGE-main\EasyAccess.Application\obj\Debug\net8.0\EasyAccess.Application.dll
 C:\Users\marvi\OneDrive\Área de Trabalho\Advanced-Business-Development-with-.NET_CHALLENGE-main\EasyAccess.Application\obj\Debug\net8.0\refint\EasyAccess.Application.dll
 C:\Users\marvi\OneDrive\Área de Trabalho\Advanced-Business-Development-with-.NET_CHALLENGE-main\EasyAccess.Application\obj\Debug\net8.0\EasyAccess.Application.pdb
 C:\Users\marvi\OneDrive\Área de Trabalho\Advanced-Business-Development-with-.NET_CHALLENGE-main\EasyAccess.Application\obj\Debug\net8.0\ref\EasyAccess.Application.dll
-c:\Users\marvi\OneDrive\Área de Trabalho\Advanced-Business-Development-with-.NET_CHALLENGE-main\EasyAccess.Application\obj\Debug\net8.0\EasyAccess.Application.sourcelink.json

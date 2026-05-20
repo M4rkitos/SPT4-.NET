@@ -27,10 +27,10 @@ C:\Users\marvi\OneDrive\Área de Trabalho\Advanced-Business-Development-with-.NE
 C:\Users\marvi\OneDrive\Área de Trabalho\Advanced-Business-Development-with-.NET_CHALLENGE-main\EasyAccess.Infrastructure\obj\Debug\net8.0\EasyAccess.Infrastructure.AssemblyInfoInputs.cache
 C:\Users\marvi\OneDrive\Área de Trabalho\Advanced-Business-Development-with-.NET_CHALLENGE-main\EasyAccess.Infrastructure\obj\Debug\net8.0\EasyAccess.Infrastructure.AssemblyInfo.cs
 C:\Users\marvi\OneDrive\Área de Trabalho\Advanced-Business-Development-with-.NET_CHALLENGE-main\EasyAccess.Infrastructure\obj\Debug\net8.0\EasyAccess.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\marvi\OneDrive\Área de Trabalho\Advanced-Business-Development-with-.NET_CHALLENGE-main\EasyAccess.Infrastructure\obj\Debug\net8.0\EasyAccess.Infrastructure.sourcelink.json
 C:\Users\marvi\OneDrive\Área de Trabalho\Advanced-Business-Development-with-.NET_CHALLENGE-main\EasyAccess.Infrastructure\obj\Debug\net8.0\EasyAcce.C15BD147.Up2Date
 C:\Users\marvi\OneDrive\Área de Trabalho\Advanced-Business-Development-with-.NET_CHALLENGE-main\EasyAccess.Infrastructure\obj\Debug\net8.0\EasyAccess.Infrastructure.dll
 C:\Users\marvi\OneDrive\Área de Trabalho\Advanced-Business-Development-with-.NET_CHALLENGE-main\EasyAccess.Infrastructure\obj\Debug\net8.0\refint\EasyAccess.Infrastructure.dll
 C:\Users\marvi\OneDrive\Área de Trabalho\Advanced-Business-Development-with-.NET_CHALLENGE-main\EasyAccess.Infrastructure\obj\Debug\net8.0\EasyAccess.Infrastructure.pdb
 C:\Users\marvi\OneDrive\Área de Trabalho\Advanced-Business-Development-with-.NET_CHALLENGE-main\EasyAccess.Infrastructure\obj\Debug\net8.0\EasyAccess.Infrastructure.genruntimeconfig.cache
 C:\Users\marvi\OneDrive\Área de Trabalho\Advanced-Business-Development-with-.NET_CHALLENGE-main\EasyAccess.Infrastructure\obj\Debug\net8.0\ref\EasyAccess.Infrastructure.dll
-c:\Users\marvi\OneDrive\Área de Trabalho\Advanced-Business-Development-with-.NET_CHALLENGE-main\EasyAccess.Infrastructure\obj\Debug\net8.0\EasyAccess.Infrastructure.sourcelink.json

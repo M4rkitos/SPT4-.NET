@@ -157,6 +157,7 @@ C:\Users\marvi\OneDrive\Área de Trabalho\Advanced-Business-Development-with-.NE
 C:\Users\marvi\OneDrive\Área de Trabalho\Advanced-Business-Development-with-.NET_CHALLENGE-main\EasyAccess.Tests\obj\Debug\net8.0\EasyAccess.Tests.AssemblyInfoInputs.cache
 C:\Users\marvi\OneDrive\Área de Trabalho\Advanced-Business-Development-with-.NET_CHALLENGE-main\EasyAccess.Tests\obj\Debug\net8.0\EasyAccess.Tests.AssemblyInfo.cs
 C:\Users\marvi\OneDrive\Área de Trabalho\Advanced-Business-Development-with-.NET_CHALLENGE-main\EasyAccess.Tests\obj\Debug\net8.0\EasyAccess.Tests.csproj.CoreCompileInputs.cache
+C:\Users\marvi\OneDrive\Área de Trabalho\Advanced-Business-Development-with-.NET_CHALLENGE-main\EasyAccess.Tests\obj\Debug\net8.0\EasyAccess.Tests.sourcelink.json
 C:\Users\marvi\OneDrive\Área de Trabalho\Advanced-Business-Development-with-.NET_CHALLENGE-main\EasyAccess.Tests\obj\Debug\net8.0\EasyAcce.21ED5648.Up2Date
 C:\Users\marvi\OneDrive\Área de Trabalho\Advanced-Business-Development-with-.NET_CHALLENGE-main\EasyAccess.Tests\obj\Debug\net8.0\EasyAccess.Tests.dll
 C:\Users\marvi\OneDrive\Área de Trabalho\Advanced-Business-Development-with-.NET_CHALLENGE-main\EasyAccess.Tests\obj\Debug\net8.0\refint\EasyAccess.Tests.dll

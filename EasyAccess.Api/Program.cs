@@ -3,6 +3,7 @@ using EasyAccess.Infrastructure.Data;
 using EasyAccess.Infrastructure.Repositories;
 using EasyAccess.Application.Services;
 using EasyAccess.Domain.Repositories;
+using EasyAccess.Api.Middleware;
 using Serilog;
 using OpenTelemetry.Trace;
 using OpenTelemetry.Metrics;
@@ -22,21 +23,18 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddControllers(); 
 
-// CORREÇÃO: Adicionando o serviço de autorização para evitar o erro de crash no startup
 builder.Services.AddAuthorization();
 
-// --- BANCO DE DADOS (COMENTADO PARA RODAR LOCAL SEM SQL SERVER) ---
-// builder.Services.AddDbContext<EasyAccessDbContext>(options =>
-//    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection") 
-//    ?? "Server=(localdb)\\mssqllocaldb;Database=EasyAccess;Trusted_Connection=True;MultipleActiveResultSets=true"));
+// --- CONFIGURAÇÃO DO BANCO EM MEMÓRIA GENÉRICO ---
+builder.Services.AddDbContext<EasyAccessDbContext>(options =>
+    options.UseInMemoryDatabase("EasyAccessDbLocal"));
 
 // --- INJEÇÃO DE DEPENDÊNCIA ---
-//builder.Services.AddScoped<IVagaRepository, VagaRepository>();
-//builder.Services.AddScoped<VagaService>();
+builder.Services.AddScoped<IVagaRepository, VagaRepository>();
+builder.Services.AddScoped<IVagaService, VagaService>();
 
-// --- HEALTH CHECKS (COMENTADO PARA NÃO CHECAR BANCO INEXISTENTE) ---
+// --- HEALTH CHECKS ---
 builder.Services.AddHealthChecks();
-// .AddDbContextCheck<EasyAccessDbContext>(); 
 
 // --- OPENTELEMETRY ---
 builder.Services.AddOpenTelemetry()
@@ -49,6 +47,9 @@ builder.Services.AddOpenTelemetry()
 
 var app = builder.Build();
 
+// --- ATIVAÇÃO DO MIDDLEWARE GLOBAL DE EXCEÇÕES ---
+app.UseMiddleware<GlobalExceptionMiddleware>();
+
 // --- MIDDLEWARES ---
 app.UseSwagger();
 app.UseSwaggerUI(c =>
@@ -58,9 +59,6 @@ app.UseSwaggerUI(c =>
 });
 
 app.UseHttpsRedirection();
-
-// CORREÇÃO: Comentado para evitar erros de configuração de política de acesso durante o vídeo
-// app.UseAuthorization(); 
 
 app.MapControllers();
 app.MapHealthChecks("/health");
