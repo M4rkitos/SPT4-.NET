@@ -4712,11 +4712,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\marvi\\OneDrive\\Área de Trabalho\\Advanced-Business-Development-with-.NET_CHALLENGE-main\\EasyAccess.Infrastructure\\EasyAccess.Infrastructure.csproj",
+      "projectUniqueName": "C:\\Users\\marvi\\OneDrive\\Área de Trabalho\\Advanced-Business-Development-with-.NET_CHALLENGE-main\\EasyAccess.Infrastructure\\EasyAccess.Infrastructure.csproj",
       "projectName": "EasyAccess.Infrastructure",
-      "projectPath": "c:\\Users\\marvi\\OneDrive\\Área de Trabalho\\Advanced-Business-Development-with-.NET_CHALLENGE-main\\EasyAccess.Infrastructure\\EasyAccess.Infrastructure.csproj",
+      "projectPath": "C:\\Users\\marvi\\OneDrive\\Área de Trabalho\\Advanced-Business-Development-with-.NET_CHALLENGE-main\\EasyAccess.Infrastructure\\EasyAccess.Infrastructure.csproj",
       "packagesPath": "C:\\Users\\marvi\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\marvi\\OneDrive\\Área de Trabalho\\Advanced-Business-Development-with-.NET_CHALLENGE-main\\EasyAccess.Infrastructure\\obj\\",
+      "outputPath": "C:\\Users\\marvi\\OneDrive\\Área de Trabalho\\Advanced-Business-Development-with-.NET_CHALLENGE-main\\EasyAccess.Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\marvi\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -4731,8 +4731,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "c:\\Users\\marvi\\OneDrive\\Área de Trabalho\\Advanced-Business-Development-with-.NET_CHALLENGE-main\\EasyAccess.Domain\\EasyAccess.Domain.csproj": {
-              "projectPath": "c:\\Users\\marvi\\OneDrive\\Área de Trabalho\\Advanced-Business-Development-with-.NET_CHALLENGE-main\\EasyAccess.Domain\\EasyAccess.Domain.csproj"
+            "C:\\Users\\marvi\\OneDrive\\Área de Trabalho\\Advanced-Business-Development-with-.NET_CHALLENGE-main\\EasyAccess.Domain\\EasyAccess.Domain.csproj": {
+              "projectPath": "C:\\Users\\marvi\\OneDrive\\Área de Trabalho\\Advanced-Business-Development-with-.NET_CHALLENGE-main\\EasyAccess.Domain\\EasyAccess.Domain.csproj"
             }
           }
         }

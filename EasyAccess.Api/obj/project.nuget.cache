@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "afrEopDT5+o=",
+  "dgSpecHash": "SZd6l1PC6A8=",
   "success": true,
-  "projectFilePath": "c:\\Users\\marvi\\OneDrive\\Área de Trabalho\\Advanced-Business-Development-with-.NET_CHALLENGE-main\\EasyAccess.Api\\EasyAccess.Api.csproj",
+  "projectFilePath": "C:\\Users\\marvi\\OneDrive\\Área de Trabalho\\Advanced-Business-Development-with-.NET_CHALLENGE-main\\EasyAccess.Api\\EasyAccess.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\marvi\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\marvi\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

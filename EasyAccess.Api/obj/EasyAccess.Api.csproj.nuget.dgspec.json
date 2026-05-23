@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\marvi\\OneDrive\\Área de Trabalho\\Advanced-Business-Development-with-.NET_CHALLENGE-main\\EasyAccess.Api\\EasyAccess.Api.csproj": {}
+    "C:\\Users\\marvi\\OneDrive\\Área de Trabalho\\Advanced-Business-Development-with-.NET_CHALLENGE-main\\EasyAccess.Api\\EasyAccess.Api.csproj": {}
   },
   "projects": {
-    "c:\\Users\\marvi\\OneDrive\\Área de Trabalho\\Advanced-Business-Development-with-.NET_CHALLENGE-main\\EasyAccess.Api\\EasyAccess.Api.csproj": {
+    "C:\\Users\\marvi\\OneDrive\\Área de Trabalho\\Advanced-Business-Development-with-.NET_CHALLENGE-main\\EasyAccess.Api\\EasyAccess.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\marvi\\OneDrive\\Área de Trabalho\\Advanced-Business-Development-with-.NET_CHALLENGE-main\\EasyAccess.Api\\EasyAccess.Api.csproj",
+        "projectUniqueName": "C:\\Users\\marvi\\OneDrive\\Área de Trabalho\\Advanced-Business-Development-with-.NET_CHALLENGE-main\\EasyAccess.Api\\EasyAccess.Api.csproj",
         "projectName": "EasyAccess.Api",
-        "projectPath": "c:\\Users\\marvi\\OneDrive\\Área de Trabalho\\Advanced-Business-Development-with-.NET_CHALLENGE-main\\EasyAccess.Api\\EasyAccess.Api.csproj",
+        "projectPath": "C:\\Users\\marvi\\OneDrive\\Área de Trabalho\\Advanced-Business-Development-with-.NET_CHALLENGE-main\\EasyAccess.Api\\EasyAccess.Api.csproj",
         "packagesPath": "C:\\Users\\marvi\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\marvi\\OneDrive\\Área de Trabalho\\Advanced-Business-Development-with-.NET_CHALLENGE-main\\EasyAccess.Api\\obj\\",
+        "outputPath": "C:\\Users\\marvi\\OneDrive\\Área de Trabalho\\Advanced-Business-Development-with-.NET_CHALLENGE-main\\EasyAccess.Api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\marvi\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -26,11 +26,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "c:\\Users\\marvi\\OneDrive\\Área de Trabalho\\Advanced-Business-Development-with-.NET_CHALLENGE-main\\EasyAccess.Application\\EasyAccess.Application.csproj": {
-                "projectPath": "c:\\Users\\marvi\\OneDrive\\Área de Trabalho\\Advanced-Business-Development-with-.NET_CHALLENGE-main\\EasyAccess.Application\\EasyAccess.Application.csproj"
+              "C:\\Users\\marvi\\OneDrive\\Área de Trabalho\\Advanced-Business-Development-with-.NET_CHALLENGE-main\\EasyAccess.Application\\EasyAccess.Application.csproj": {
+                "projectPath": "C:\\Users\\marvi\\OneDrive\\Área de Trabalho\\Advanced-Business-Development-with-.NET_CHALLENGE-main\\EasyAccess.Application\\EasyAccess.Application.csproj"
               },
-              "c:\\Users\\marvi\\OneDrive\\Área de Trabalho\\Advanced-Business-Development-with-.NET_CHALLENGE-main\\EasyAccess.Domain\\EasyAccess.Domain.csproj": {
-                "projectPath": "c:\\Users\\marvi\\OneDrive\\Área de Trabalho\\Advanced-Business-Development-with-.NET_CHALLENGE-main\\EasyAccess.Domain\\EasyAccess.Domain.csproj"
+              "C:\\Users\\marvi\\OneDrive\\Área de Trabalho\\Advanced-Business-Development-with-.NET_CHALLENGE-main\\EasyAccess.Domain\\EasyAccess.Domain.csproj": {
+                "projectPath": "C:\\Users\\marvi\\OneDrive\\Área de Trabalho\\Advanced-Business-Development-with-.NET_CHALLENGE-main\\EasyAccess.Domain\\EasyAccess.Domain.csproj"
               }
             }
           }
@@ -118,14 +118,14 @@
         }
       }
     },
-    "c:\\Users\\marvi\\OneDrive\\Área de Trabalho\\Advanced-Business-Development-with-.NET_CHALLENGE-main\\EasyAccess.Application\\EasyAccess.Application.csproj": {
+    "C:\\Users\\marvi\\OneDrive\\Área de Trabalho\\Advanced-Business-Development-with-.NET_CHALLENGE-main\\EasyAccess.Application\\EasyAccess.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\marvi\\OneDrive\\Área de Trabalho\\Advanced-Business-Development-with-.NET_CHALLENGE-main\\EasyAccess.Application\\EasyAccess.Application.csproj",
+        "projectUniqueName": "C:\\Users\\marvi\\OneDrive\\Área de Trabalho\\Advanced-Business-Development-with-.NET_CHALLENGE-main\\EasyAccess.Application\\EasyAccess.Application.csproj",
         "projectName": "EasyAccess.Application",
-        "projectPath": "c:\\Users\\marvi\\OneDrive\\Área de Trabalho\\Advanced-Business-Development-with-.NET_CHALLENGE-main\\EasyAccess.Application\\EasyAccess.Application.csproj",
+        "projectPath": "C:\\Users\\marvi\\OneDrive\\Área de Trabalho\\Advanced-Business-Development-with-.NET_CHALLENGE-main\\EasyAccess.Application\\EasyAccess.Application.csproj",
         "packagesPath": "C:\\Users\\marvi\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\marvi\\OneDrive\\Área de Trabalho\\Advanced-Business-Development-with-.NET_CHALLENGE-main\\EasyAccess.Application\\obj\\",
+        "outputPath": "C:\\Users\\marvi\\OneDrive\\Área de Trabalho\\Advanced-Business-Development-with-.NET_CHALLENGE-main\\EasyAccess.Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\marvi\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -140,11 +140,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "c:\\Users\\marvi\\OneDrive\\Área de Trabalho\\Advanced-Business-Development-with-.NET_CHALLENGE-main\\EasyAccess.Domain\\EasyAccess.Domain.csproj": {
-                "projectPath": "c:\\Users\\marvi\\OneDrive\\Área de Trabalho\\Advanced-Business-Development-with-.NET_CHALLENGE-main\\EasyAccess.Domain\\EasyAccess.Domain.csproj"
+              "C:\\Users\\marvi\\OneDrive\\Área de Trabalho\\Advanced-Business-Development-with-.NET_CHALLENGE-main\\EasyAccess.Domain\\EasyAccess.Domain.csproj": {
+                "projectPath": "C:\\Users\\marvi\\OneDrive\\Área de Trabalho\\Advanced-Business-Development-with-.NET_CHALLENGE-main\\EasyAccess.Domain\\EasyAccess.Domain.csproj"
               },
-              "c:\\Users\\marvi\\OneDrive\\Área de Trabalho\\Advanced-Business-Development-with-.NET_CHALLENGE-main\\EasyAccess.Infrastructure\\EasyAccess.Infrastructure.csproj": {
-                "projectPath": "c:\\Users\\marvi\\OneDrive\\Área de Trabalho\\Advanced-Business-Development-with-.NET_CHALLENGE-main\\EasyAccess.Infrastructure\\EasyAccess.Infrastructure.csproj"
+              "C:\\Users\\marvi\\OneDrive\\Área de Trabalho\\Advanced-Business-Development-with-.NET_CHALLENGE-main\\EasyAccess.Infrastructure\\EasyAccess.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\marvi\\OneDrive\\Área de Trabalho\\Advanced-Business-Development-with-.NET_CHALLENGE-main\\EasyAccess.Infrastructure\\EasyAccess.Infrastructure.csproj"
               }
             }
           }
@@ -183,14 +183,14 @@
         }
       }
     },
-    "c:\\Users\\marvi\\OneDrive\\Área de Trabalho\\Advanced-Business-Development-with-.NET_CHALLENGE-main\\EasyAccess.Domain\\EasyAccess.Domain.csproj": {
+    "C:\\Users\\marvi\\OneDrive\\Área de Trabalho\\Advanced-Business-Development-with-.NET_CHALLENGE-main\\EasyAccess.Domain\\EasyAccess.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\marvi\\OneDrive\\Área de Trabalho\\Advanced-Business-Development-with-.NET_CHALLENGE-main\\EasyAccess.Domain\\EasyAccess.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\marvi\\OneDrive\\Área de Trabalho\\Advanced-Business-Development-with-.NET_CHALLENGE-main\\EasyAccess.Domain\\EasyAccess.Domain.csproj",
         "projectName": "EasyAccess.Domain",
-        "projectPath": "c:\\Users\\marvi\\OneDrive\\Área de Trabalho\\Advanced-Business-Development-with-.NET_CHALLENGE-main\\EasyAccess.Domain\\EasyAccess.Domain.csproj",
+        "projectPath": "C:\\Users\\marvi\\OneDrive\\Área de Trabalho\\Advanced-Business-Development-with-.NET_CHALLENGE-main\\EasyAccess.Domain\\EasyAccess.Domain.csproj",
         "packagesPath": "C:\\Users\\marvi\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\marvi\\OneDrive\\Área de Trabalho\\Advanced-Business-Development-with-.NET_CHALLENGE-main\\EasyAccess.Domain\\obj\\",
+        "outputPath": "C:\\Users\\marvi\\OneDrive\\Área de Trabalho\\Advanced-Business-Development-with-.NET_CHALLENGE-main\\EasyAccess.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\marvi\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -241,14 +241,14 @@
         }
       }
     },
-    "c:\\Users\\marvi\\OneDrive\\Área de Trabalho\\Advanced-Business-Development-with-.NET_CHALLENGE-main\\EasyAccess.Infrastructure\\EasyAccess.Infrastructure.csproj": {
+    "C:\\Users\\marvi\\OneDrive\\Área de Trabalho\\Advanced-Business-Development-with-.NET_CHALLENGE-main\\EasyAccess.Infrastructure\\EasyAccess.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\marvi\\OneDrive\\Área de Trabalho\\Advanced-Business-Development-with-.NET_CHALLENGE-main\\EasyAccess.Infrastructure\\EasyAccess.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\marvi\\OneDrive\\Área de Trabalho\\Advanced-Business-Development-with-.NET_CHALLENGE-main\\EasyAccess.Infrastructure\\EasyAccess.Infrastructure.csproj",
         "projectName": "EasyAccess.Infrastructure",
-        "projectPath": "c:\\Users\\marvi\\OneDrive\\Área de Trabalho\\Advanced-Business-Development-with-.NET_CHALLENGE-main\\EasyAccess.Infrastructure\\EasyAccess.Infrastructure.csproj",
+        "projectPath": "C:\\Users\\marvi\\OneDrive\\Área de Trabalho\\Advanced-Business-Development-with-.NET_CHALLENGE-main\\EasyAccess.Infrastructure\\EasyAccess.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\marvi\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\marvi\\OneDrive\\Área de Trabalho\\Advanced-Business-Development-with-.NET_CHALLENGE-main\\EasyAccess.Infrastructure\\obj\\",
+        "outputPath": "C:\\Users\\marvi\\OneDrive\\Área de Trabalho\\Advanced-Business-Development-with-.NET_CHALLENGE-main\\EasyAccess.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\marvi\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -263,8 +263,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "c:\\Users\\marvi\\OneDrive\\Área de Trabalho\\Advanced-Business-Development-with-.NET_CHALLENGE-main\\EasyAccess.Domain\\EasyAccess.Domain.csproj": {
-                "projectPath": "c:\\Users\\marvi\\OneDrive\\Área de Trabalho\\Advanced-Business-Development-with-.NET_CHALLENGE-main\\EasyAccess.Domain\\EasyAccess.Domain.csproj"
+              "C:\\Users\\marvi\\OneDrive\\Área de Trabalho\\Advanced-Business-Development-with-.NET_CHALLENGE-main\\EasyAccess.Domain\\EasyAccess.Domain.csproj": {
+                "projectPath": "C:\\Users\\marvi\\OneDrive\\Área de Trabalho\\Advanced-Business-Development-with-.NET_CHALLENGE-main\\EasyAccess.Domain\\EasyAccess.Domain.csproj"
               }
             }
           }
