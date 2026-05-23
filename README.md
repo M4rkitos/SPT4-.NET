@@ -77,3 +77,31 @@ POST /api/Vagas - Realiza uma nova reserva de vaga (Valida se a data de início 
 PUT /api/Vagas/{id} - Atualiza os dados de uma reserva existente.
 
 DELETE /api/Vagas/{id} - Remove uma reserva do sistema.
+
+
+
+
+
+
+
+
+
+SPRINT 4 - DEVOPS
+
+
+## Esteira de CI/CD (Azure DevOps)
+
+O projeto conta com um ciclo de vida automatizado de Integração Contínua (CI) e Entrega Contínua (CD) configurado via Azure Pipelines (`azure-pipelines.yml`).
+
+### Fluxo da Pipeline
+1. **Trigger:** Disparado automaticamente a cada `git push` na branch `main`.
+2. **Ambiente:** Executado em um agente virtualizado Linux (`ubuntu-latest`).
+3. **Restore (`dotnet restore`):** Restaura todas as dependências e pacotes NuGet das camadas da Clean Architecture.
+4. **Build (`dotnet build`):** Compila a solução em modo `Release` para garantir a integridade do código.
+5. **Test (`dotnet test`):** Executa de forma isolada os testes automatizados da camada `EasyAccess.Tests` via xUnit.
+6. **CD (Deploy):** Após a validação total do estágio de CI, os artefatos são gerados e preparados para publicação no ambiente em nuvem.
+
+### Persistência em Nuvem (SQL Server / Azure SQL)
+A estrutura de banco de dados para o ambiente de nuvem foi mapeada com um relacionamento de 1 para Muitos (1:N), garantindo a integridade referencial:
+* **Tabela Moradores:** Entidade principal que armazena os dados dos residentes.
+* **Tabela VagasReservas:** Entidade relacionada que armazena os agendamentos de vagas vinculados a um morador através de uma Chave Estrangeira (`FK_VagasReservas_Moradores`).
