@@ -1,16 +1,90 @@
 {
-  "CRIAR_RESERVA": {
-    "method": "POST",
-    "url": "/api/vagas/reservar",
-    "body": {
-      "idMorador": 1,
-      "placaVeiculo": "ABC-1234",
-      "dataReserva": "2026-04-12T14:00:00",
-      "tipoVaga": "Visitante"
-    }
+  "info": {
+    "_postman_id": "496a53f9-8e9c-41f0-be32-d257d65e94ec",
+    "name": "EasyAccess - Sprint 4 DOTNET",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "54977234",
+    "_collection_link": "https://go.postman.co/collection/54977234-496a53f9-8e9c-41f0-be32-d257d65e94ec?source=collection_link"
   },
-  "CONSULTAR_VAGAS": {
-    "method": "GET",
-    "url": "/api/vagas/disponiveis"
-  }
+  "item": [
+    {
+      "name": "New Request",
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "exec": [
+              ""
+            ],
+            "type": "text/javascript",
+            "packages": {},
+            "requests": {}
+          }
+        }
+      ],
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"moradorId\": 1,\r\n  \"placaVeiculo\": \"h3hnfaw3\",\r\n  \"dataInicio\": \"2026-05-20T08:00:00Z\",\r\n  \"dataFim\": \"2026-05-20T18:00:00Z\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:5128/api/Vagas",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "5128",
+          "path": [
+            "api",
+            "Vagas"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:5128/api/Vagas?page= 1&pageSize= 2&ordenacao= Id",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "5128",
+          "path": [
+            "api",
+            "Vagas"
+          ],
+          "query": [
+            {
+              "key": "page",
+              "value": " 1",
+              "type": "text"
+            },
+            {
+              "key": "pageSize",
+              "value": " 2",
+              "type": "text"
+            },
+            {
+              "key": "ordenacao",
+              "value": " Id",
+              "type": "text"
+            }
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
 }
