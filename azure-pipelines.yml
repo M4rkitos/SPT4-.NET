@@ -1,0 +1,41 @@
+trigger:
+- main
+
+pool:
+  vmImage: 'ubuntu-latest'
+
+variables:
+  buildConfiguration: 'Release'
+
+stages:
+- stage: CI
+  displayName: 'Estágio de Integração Contínua (CI)'
+  jobs:
+  - job: BuildAndTest
+    displayName: 'Compilação e Testes Automatizados'
+    steps:
+    - task: UseDotNet@2
+      displayName: 'Instalar .NET 8 SDK'
+      inputs:
+        packageType: 'sdk'
+        version: '8.x'
+
+    - script: dotnet restore
+      displayName: 'Restaurar Dependências NuGet'
+
+    - script: dotnet build --configuration $(buildConfiguration)
+      displayName: 'Compilar Solução (.NET Build)'
+
+    - script: dotnet test --configuration $(buildConfiguration) --logger trx
+      displayName: 'Executar Testes de Unidade (xUnit)'
+
+- stage: CD
+  displayName: 'Estágio de Entrega Contínua (CD)'
+  dependsOn: CI
+  condition: succeeded()
+  jobs:
+  - job: Deploy
+    displayName: 'Deploy para o Azure App Service'
+    steps:
+    - script: echo "Iniciando publicação dos artefatos e deploy em nuvem..."
+      displayName: 'Simular Publicação de Artefato'
