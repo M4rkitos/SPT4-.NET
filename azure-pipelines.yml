@@ -64,7 +64,7 @@ stages:
     - task: AzureWebApp@1
       displayName: 'Executar Deploy no Azure Web App'
       inputs:
-        azureSubscription: 'ConexaoAzure' # ◄ LINHA 61 CORRIGIDA AQUI!
+        azureSubscription: 'ConexaoAzure'
         appType: 'webAppLinux'
         appName: '$(azureWebAppName)'
-        package: '$(System.ArtifactsDirectory)/drop/**/*.zip'
+        package: '$(System.ArtifactsDirectory)/drop/EasyAccess.Api.zip' # Aponta direto para o arquivo correto da API
