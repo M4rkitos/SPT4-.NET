@@ -10,6 +10,12 @@ using OpenTelemetry.Metrics;
 
 var builder = WebApplication.CreateBuilder(args);
 
+// 💡 FORÇA A API A ESCUTAR A PORTA DA AZURE
+builder.WebHost.ConfigureKestrel(options =>
+{
+    options.ListenAnyIP(8080);
+});
+
 // --- CONFIGURAÇÃO DO SERILOG ---
 Log.Logger = new LoggerConfiguration()
     .WriteTo.Console()
@@ -18,12 +24,13 @@ Log.Logger = new LoggerConfiguration()
 
 builder.Host.UseSerilog();
 
+// --- SERVIÇOS DE SEGURANÇA E INFRAESTRUTURA (Ordem Corrigida) ---
+builder.Services.AddAuthorization(); // ◄ Deve ser um dos primeiros serviços declarados
+
 // --- SERVIÇOS PADRÃO ---
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddControllers(); 
-
-builder.Services.AddAuthorization();
 
 // --- CONFIGURAÇÃO DO BANCO EM NUVEM REAL (AZURE SQL) ---
 builder.Services.AddDbContext<EasyAccessDbContext>(options =>
@@ -55,8 +62,11 @@ app.UseSwagger();
 app.UseSwaggerUI(c =>
 {
     c.SwaggerEndpoint("/swagger/v1/swagger.json", "V1");
-    c.RoutePrefix = "swagger-ui.html"; // ◄ Alterado para o caminho exigido pelo professor
+    c.RoutePrefix = "swagger-ui.html"; 
 });
+
+// Middleware de autorização para validar o pipeline HTTP correto das rotas
+app.UseAuthorization(); 
 
 // Comentado para evitar o loop de "Application Error" no contêiner Linux da Azure
 // app.UseHttpsRedirection();
