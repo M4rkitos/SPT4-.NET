@@ -35,7 +35,6 @@ stages:
       inputs:
         command: 'publish'
         publishWebProjects: true
-        # 💡 REMOVEMOS O ZIP AUTOMÁTICO AQUI PARA ENVIAR OS ARQUIVOS EXPANDIDOS
         arguments: '--configuration $(buildConfiguration) --output $(Build.ArtifactStagingDirectory)/publish'
         zipAfterPublish: false
 
@@ -68,5 +67,6 @@ stages:
         azureSubscription: 'ConexaoAzure'
         appType: 'webAppLinux'
         appName: '$(azureWebAppName)'
-        # 💡 AGORA APONTAMOS PARA A PASTA DE ARQUIVOS, EVITANDO O ZIP DEPLOY
         package: '$(System.ArtifactsDirectory)/webfiles'
+        # 💡 FORÇA O DEPLOY DIRETO NO AMBIENTE PRINCIPAL (Bloqueia slots temporários)
+        deployToSlotOrASE: false
