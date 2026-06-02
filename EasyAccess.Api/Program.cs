@@ -55,10 +55,11 @@ app.UseSwagger();
 app.UseSwaggerUI(c =>
 {
     c.SwaggerEndpoint("/swagger/v1/swagger.json", "V1");
-    c.RoutePrefix = string.Empty; // Define o Swagger como página inicial
+    c.RoutePrefix = "swagger-ui.html"; // ◄ Alterado para o caminho exigido pelo professor
 });
 
-app.UseHttpsRedirection();
+// Comentado para evitar o loop de "Application Error" no contêiner Linux da Azure
+// app.UseHttpsRedirection();
 
 app.MapControllers();
 app.MapHealthChecks("/health");
