@@ -6,7 +6,8 @@ pool:
 
 variables:
   buildConfiguration: 'Release'
-  azureWebAppName: 'easyaccess-api-final' 
+  # 💡 AJUSTADO PARA O NOME REAL DO SEU RECURSO NO PORTAL:
+  azureWebAppName: 'easyaccess-api-final-c2bghbesanbpgfbm' 
 
 stages:
 - stage: CI
@@ -68,5 +69,4 @@ stages:
         appType: 'webAppLinux'
         appName: '$(azureWebAppName)'
         package: '$(System.ArtifactsDirectory)/webfiles'
-        # 💡 FORÇA O DEPLOY DIRETO NO AMBIENTE PRINCIPAL (Bloqueia slots temporários)
         deployToSlotOrASE: false
