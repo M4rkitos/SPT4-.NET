@@ -6,7 +6,6 @@ pool:
 
 variables:
   buildConfiguration: 'Release'
-  # Alterado para bater exatamente com o seu recurso criado no Portal da Azure
   azureWebAppName: 'easyaccess-api-final' 
 
 stages:
@@ -65,8 +64,7 @@ stages:
     - task: AzureWebApp@1
       displayName: 'Executar Deploy no Azure Web App'
       inputs:
-        # Validado que o nome da sua Service Connection é exatamente este
-        azureSubscription: 'Azure-FIAP-Subscription' 
+        azureSubscription: 'ConexaoAzure' # ◄ LINHA 61 CORRIGIDA AQUI!
         appType: 'webAppLinux'
         appName: '$(azureWebAppName)'
         package: '$(System.ArtifactsDirectory)/drop/**/*.zip'
