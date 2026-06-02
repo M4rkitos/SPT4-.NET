@@ -6,6 +6,8 @@ pool:
 
 variables:
   buildConfiguration: 'Release'
+  # Alterado para bater exatamente com o seu recurso criado no Portal da Azure
+  azureWebAppName: 'easyaccess-api-final' 
 
 stages:
 - stage: CI
@@ -29,13 +31,42 @@ stages:
     - script: dotnet test --configuration $(buildConfiguration) --logger trx
       displayName: 'Executar Testes de Unidade (xUnit)'
 
+    - task: DotNetCoreCLI@2
+      displayName: 'Publicar Artefatos da API (Publish)'
+      inputs:
+        command: 'publish'
+        publishWebProjects: true
+        arguments: '--configuration $(buildConfiguration) --output $(Build.ArtifactStagingDirectory)'
+        zipAfterPublish: true
+
+    - task: PublishBuildArtifacts@1
+      displayName: 'Disponibilizar Artefato para o CD'
+      inputs:
+        PathtoPublish: '$(Build.ArtifactStagingDirectory)'
+        ArtifactName: 'drop'
+        publishLocation: 'Container'
+
 - stage: CD
   displayName: 'Estágio de Entrega Contínua (CD)'
   dependsOn: CI
   condition: succeeded()
   jobs:
   - job: Deploy
-    displayName: 'Deploy para o Azure App Service'
+    displayName: 'Deploy Real para o Azure App Service'
     steps:
-    - script: echo "Iniciando publicação dos artefatos e deploy em nuvem..."
-      displayName: 'Simular Publicação de Artefato'
+    - task: DownloadBuildArtifacts@0
+      displayName: 'Baixar Artefatos do CI'
+      inputs:
+        buildType: 'current'
+        downloadType: 'single'
+        artifactName: 'drop'
+        downloadPath: '$(System.ArtifactsDirectory)'
+
+    - task: AzureWebApp@1
+      displayName: 'Executar Deploy no Azure Web App'
+      inputs:
+        # Validado que o nome da sua Service Connection é exatamente este
+        azureSubscription: 'Azure-FIAP-Subscription' 
+        appType: 'webAppLinux'
+        appName: '$(azureWebAppName)'
+        package: '$(System.ArtifactsDirectory)/drop/**/*.zip'

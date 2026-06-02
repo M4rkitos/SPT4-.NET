@@ -13,8 +13,8 @@ CREATE TABLE VagasReservas (
     DataInicio DATETIME NOT NULL,
     DataFim DATETIME NOT NULL,
     MoradorId INT NOT NULL,
-    
-    -- Configuração da Chave Estrangeira (Relacionamento 1:N)
-    CONSTRAINT FK_VagasReservas_Moradores FOREIGN KEY (MoradorId) 
+    ValorCobrado DECIMAL(18,2) NOT NULL, -- Coluna adicionada para espelhar a Entity
+
+    CONSTRAINT FK_VagasReservas_Moradores FOREIGN KEY (MoradorId)
         REFERENCES Moradores(Id) ON DELETE CASCADE
 );

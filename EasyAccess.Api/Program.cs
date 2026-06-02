@@ -25,9 +25,9 @@ builder.Services.AddControllers();
 
 builder.Services.AddAuthorization();
 
-// --- CONFIGURAÇÃO DO BANCO EM MEMÓRIA GENÉRICO ---
+// --- CONFIGURAÇÃO DO BANCO EM NUVEM REAL (AZURE SQL) ---
 builder.Services.AddDbContext<EasyAccessDbContext>(options =>
-    options.UseInMemoryDatabase("EasyAccessDbLocal"));
+    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
 // --- INJEÇÃO DE DEPENDÊNCIA ---
 builder.Services.AddScoped<IVagaRepository, VagaRepository>();
