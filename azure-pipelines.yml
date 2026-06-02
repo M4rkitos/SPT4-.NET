@@ -6,8 +6,8 @@ pool:
 
 variables:
   buildConfiguration: 'Release'
-  # 💡 AJUSTADO PARA O NOME REAL DO SEU RECURSO NO PORTAL:
-  azureWebAppName: 'easyaccess-api-final-c2bghbesanbpgfbm' 
+  # 💡 CORRIGIDO: Voltamos para o nome curto interno que a Azure reconhece como recurso
+  azureWebAppName: 'easyaccess-api-final' 
 
 stages:
 - stage: CI
@@ -70,3 +70,5 @@ stages:
         appName: '$(azureWebAppName)'
         package: '$(System.ArtifactsDirectory)/webfiles'
         deployToSlotOrASE: false
+        # 💡 GARANTIA EXTRA: Força o contêiner Linux a inicializar a DLL correta do projeto
+        customInitCommand: 'dotnet EasyAccess.Api.dll'
