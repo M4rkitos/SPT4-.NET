@@ -35,14 +35,15 @@ stages:
       inputs:
         command: 'publish'
         publishWebProjects: true
-        arguments: '--configuration $(buildConfiguration) --output $(Build.ArtifactStagingDirectory)'
-        zipAfterPublish: true
+        # 💡 REMOVEMOS O ZIP AUTOMÁTICO AQUI PARA ENVIAR OS ARQUIVOS EXPANDIDOS
+        arguments: '--configuration $(buildConfiguration) --output $(Build.ArtifactStagingDirectory)/publish'
+        zipAfterPublish: false
 
     - task: PublishBuildArtifacts@1
       displayName: 'Disponibilizar Artefato para o CD'
       inputs:
-        PathtoPublish: '$(Build.ArtifactStagingDirectory)'
-        ArtifactName: 'drop'
+        PathtoPublish: '$(Build.ArtifactStagingDirectory)/publish'
+        ArtifactName: 'webfiles'
         publishLocation: 'Container'
 
 - stage: CD
@@ -58,7 +59,7 @@ stages:
       inputs:
         buildType: 'current'
         downloadType: 'single'
-        artifactName: 'drop'
+        artifactName: 'webfiles'
         downloadPath: '$(System.ArtifactsDirectory)'
 
     - task: AzureWebApp@1
@@ -67,4 +68,5 @@ stages:
         azureSubscription: 'ConexaoAzure'
         appType: 'webAppLinux'
         appName: '$(azureWebAppName)'
-        package: '$(System.ArtifactsDirectory)/drop/EasyAccess.Api.zip' # Aponta direto para o arquivo correto da API
+        # 💡 AGORA APONTAMOS PARA A PASTA DE ARQUIVOS, EVITANDO O ZIP DEPLOY
+        package: '$(System.ArtifactsDirectory)/webfiles'
